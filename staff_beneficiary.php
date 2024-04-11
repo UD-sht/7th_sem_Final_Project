@@ -36,7 +36,7 @@ $result=  mysqli_query($conn,$sql) or die(mysqli_error($conn));
            
            <form action="staff_approve_beneficiery.php" method="POST">
 <table align="center">
-                        <th>id</th>
+                        <th>Id</th>
                         <th>Sender</th>
                         <th>Sender Account No:</th>
                         <th>Reciever</th>

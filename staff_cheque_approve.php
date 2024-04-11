@@ -33,7 +33,7 @@ $result=  mysqli_query($conn,$sql) or die(mysqli_error($conn));
 ?>
     <form action="staff_cheque_approve_process.php" method="POST">
 <table align="center">
-                        <th>id</th>
+                        <th>Id</th>
                         <th>Name</th>
                         <th>Account No.</th>
                         <th>Cheque Book Status</th>
